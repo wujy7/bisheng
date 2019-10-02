@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.wmdcb.bisheng</groupId>
+    <artifactId>bisheng</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>bishang-interface</module>
+        <module>bishang-text</module>
+        <module>bishang-web</module>
+        <module>bishang-common</module>
+    </modules>
+
+    <properties>
+        <bishang.interface.version>1.0-SNAPSHOT</bishang.interface.version>
+        <bishang.common.version>1.0-SNAPSHOT</bishang.common.version>
+        <bishang.text.version>1.0-SNAPSHOT</bishang.text.version>
+        <bishang.web.version>1.0-SNAPSHOT</bishang.web.version>
+        <fastjson.version>1.2.60</fastjson.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
