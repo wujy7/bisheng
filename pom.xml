@@ -20,7 +20,7 @@
         <bishang.common.version>1.0-SNAPSHOT</bishang.common.version>
         <bishang.text.version>1.0-SNAPSHOT</bishang.text.version>
         <bishang.web.version>1.0-SNAPSHOT</bishang.web.version>
-        <fastjson.version>1.2.60</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <spring.version>4.1.6.RELEASE</spring.version>
         <lombok.version>1.16.14</lombok.version>
     </properties>
